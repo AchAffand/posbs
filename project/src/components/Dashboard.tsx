@@ -1,4 +1,3 @@
-import React from 'react'
 import { usePurchaseOrders } from '../hooks/usePurchaseOrders'
 import { useDeliveryNotes } from '../hooks/useDeliveryNotes'
 import { Package, Truck, TrendingUp, Clock } from 'lucide-react'

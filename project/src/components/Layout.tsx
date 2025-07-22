@@ -1,7 +1,5 @@
-import React from 'react'
 import { Outlet, Link, useLocation } from 'react-router-dom'
 import { Package, BarChart3, Plus } from 'lucide-react'
-import { supabase } from '../features/po/lib/supabase';
 
 export function Layout() {
   const location = useLocation()
@@ -18,7 +16,6 @@ export function Layout() {
     return location.pathname.startsWith(href)
   }
 
-  // HAPUS fungsi handleLogout dan tombol Logout
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
